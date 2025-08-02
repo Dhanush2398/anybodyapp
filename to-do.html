@@ -75,6 +75,14 @@
         </div>
       </form>
     </div>
+
+  <div class="nav-center" style="flex: 1 1 auto; text-align: center;">
+    <a href="index.html">
+      <img src="../assets/images/logo.png" alt="Logo" style="height: 70px;">
+    </a>
+  </div>
+
+    
     <div class="nav-right">
       <ul class="header-right">
         <li class="custom-dropdown">
@@ -94,9 +102,6 @@
             <ul class="profile-body">
               <li class="d-flex">
                 <i class="far fa-user"></i><a class="ms-2" href="user-profile.html">Account</a>
-              </li>
-              <li class="d-flex">
-                <i class="far fa-envelope"></i><a class="ms-2" href="letter-box.html">Inbox</a>
               </li>
               <li class="d-flex">
                 <i class="far fa-list-alt"></i><a class="ms-2" href="to-do.html">Task</a>
@@ -129,6 +134,13 @@
                   <h5 class="f-w-700 sidebar-title pt-3">Dashboard</h5>
                 </div>
               </li>
+              
+              <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i>
+        <a class="sidebar-link" href="index.html">
+          <i class="fa-solid fa-cubes sidebar-icon"></i>
+          <h6 class="f-w-600">Dashboard</h6>
+        </a>
+      </li>
                 <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i>
                   <a class="sidebar-link" href="javascript:void(0)">
                   <i class="fa-solid fa-diagram-project"></i>
@@ -314,71 +326,143 @@
   </div>
 </div>
 
-                          <div class="todo-list-body">
-                            <div class="todo-list-footer"> 
-                              <div class="new-task-wrapper mb-4">
-                                <textarea id="new-task" placeholder="Enter new task here. . ."></textarea><span class="btn btn-danger cancel-btn" id="close-task-panel">Close</span><span class="btn btn-success ms-3 add-new-task-btn" id="add-task">Add Task</span>
-                              </div>
-                            </div>
-                            <ul id="todo-list">
-                              <li class="task">
-                                <div class="task-container">
-                                  <h4 class="task-label">Check validation involves making sure all your tags are properly closed and nested.</h4>
-                                  <div class="d-flex align-items-center gap-4"><span class="badge badge-light-primary">In Progress</span>
-                                    <h5 class="assign-name m-0">10 Nov</h5><span class="task-action-btn"><span class="action-box large delete-btn" title="Delete Task"><i class="icon"><i class="icon-trash"></i></i></span><span class="action-box large complete-btn" title="Mark Complete"><i class="icon"><i class="icon-check"></i></i></span></span>
-                                  </div>
-                                </div>
-                              </li>
-                              <li class="task">
-                                <div class="task-container">
-                                  <h4 class="task-label">Test the outgoing links from all the pages to the specific domain under test.</h4>
-                                  <div class="d-flex align-items-center gap-4"><span class="badge badge-light-danger">Pending</span>
-                                    <h5 class="assign-name m-0">04 Aug</h5><span class="task-action-btn"><span class="action-box large delete-btn" title="Delete Task"><i class="icon"><i class="icon-trash"></i></i></span><span class="action-box large complete-btn" title="Mark Complete"><i class="icon"><i class="icon-check"></i></i></span></span>
-                                  </div>
-                                </div>
-                              </li>
-                              <li class="completed task">
-                                <div class="task-container">
-                                  <h4 class="task-label">Test links are used to send emails to admin or other users from web pages.</h4>
-                                  <div class="d-flex align-items-center gap-4"><span class="badge badge-light-success">Done</span>
-                                    <h5 class="assign-name m-0">25 Feb</h5><span class="task-action-btn"><span class="action-box large delete-btn" title="Delete Task"><i class="icon"><i class="icon-trash"></i></i></span><span class="action-box large complete-btn" title="Mark Complete"><i class="icon"><i class="icon-check"></i></i></span></span>
-                                  </div>
-                                </div>
-                              </li>
-                              <li class="task">
-                                <div class="task-container">
-                                  <h4 class="task-label">Options to create forms, if any, form deletes a view or modify the forms.</h4>
-                                  <div class="d-flex align-items-center gap-4"><span class="badge badge-light-primary">In Progress</span>
-                                    <h5 class="assign-name m-0">15 Dec</h5><span class="task-action-btn"><span class="action-box large delete-btn" title="Delete Task"><i class="icon"><i class="icon-trash"></i></i></span><span class="action-box large complete-btn" title="Mark Complete"><i class="icon"><i class="icon-check"></i></i></span></span>
-                                  </div>
-                                </div>
-                              </li>
-                              <li class="task">
-                                <div class="task-container">
-                                  <h4 class="task-label">Wrong inputs in the forms to the fields in the forms.</h4>
-                                  <div class="d-flex align-items-center gap-4"><span class="badge badge-light-danger">Pending</span>
-                                    <h5 class="assign-name m-0">11 Nov</h5><span class="task-action-btn"><span class="action-box large delete-btn" title="Delete Task"><i class="icon"><i class="icon-trash"></i></i></span><span class="action-box large complete-btn" title="Mark Complete"><i class="icon"><i class="icon-check"></i></i></span></span>
-                                  </div>
-                                </div>
-                              </li>
-                              <li class="task completed">
-                                <div class="task-container">
-                                  <h4 class="task-label">Check if the instructions provided are perfect to satisfy its purpose.</h4>
-                                  <div class="d-flex align-items-center gap-4"><span class="badge badge-light-danger">Pending</span>
-                                    <h5 class="assign-name m-0">04 Sept</h5><span class="task-action-btn"><span class="action-box large delete-btn" title="Delete Task"><i class="icon"><i class="icon-trash"></i></i></span><span class="action-box large complete-btn" title="Mark Complete"><i class="icon"><i class="icon-check"></i></i></span></span>
-                                  </div>
-                                </div>
-                              </li>
-                              <li class="task">
-                                <div class="task-container">
-                                  <h4 class="task-label">Application server and Database server interface.</h4>
-                                  <div class="d-flex align-items-center gap-4"><span class="badge badge-light-success">Done</span>
-                                    <h5 class="assign-name m-0">08 July</h5><span class="task-action-btn"><span class="action-box large delete-btn" title="Delete Task"><i class="icon"><i class="icon-trash"></i></i></span><span class="action-box large complete-btn" title="Mark Complete"><i class="icon"><i class="icon-check"></i></i></span></span>
-                                  </div>
-                                </div>
-                              </li>
-                            </ul>
-                          </div>
+                  <div class="todo-list-body">
+  <div class="todo-list-footer"> 
+    <div class="new-task-wrapper mb-4">
+      <textarea id="new-task" placeholder="Enter new task here..."></textarea>
+      <span class="btn btn-danger cancel-btn" id="close-task-panel">Close</span>
+      <span class="btn btn-success ms-3 add-new-task-btn" id="add-task">Add Task</span>
+    </div>
+  </div>
+  <ul id="todo-list">
+    <li class="task">
+      <div class="task-container">
+        <h4 class="task-label">Check validation involves making sure all your tags are properly closed and nested.</h4>
+        <div class="d-flex align-items-center gap-4">
+          <span class="badge badge-light-primary">In Progress</span>
+          <h5 class="assign-name m-0">10 Nov</h5>
+          <span class="task-action-btn">
+            <span class="action-box large delete-btn" title="Delete Task">
+              <i class="fa-solid fa-trash"></i>
+            </span>
+            <span class="action-box large complete-btn" title="Mark Complete">
+              <i class="fa-solid fa-check"></i>
+            </span>
+          </span>
+        </div>
+      </div>
+    </li>
+
+    <li class="task">
+      <div class="task-container">
+        <h4 class="task-label">Test the outgoing links from all the pages to the specific domain under test.</h4>
+        <div class="d-flex align-items-center gap-4">
+          <span class="badge badge-light-danger">Pending</span>
+          <h5 class="assign-name m-0">04 Aug</h5>
+          <span class="task-action-btn">
+            <span class="action-box large delete-btn" title="Delete Task">
+              <i class="fa-solid fa-trash"></i>
+            </span>
+            <span class="action-box large complete-btn" title="Mark Complete">
+              <i class="fa-solid fa-check"></i>
+            </span>
+          </span>
+        </div>
+      </div>
+    </li>
+
+    <li class="completed task">
+      <div class="task-container">
+        <h4 class="task-label">Test links are used to send emails to admin or other users from web pages.</h4>
+        <div class="d-flex align-items-center gap-4">
+          <span class="badge badge-light-success">Done</span>
+          <h5 class="assign-name m-0">25 Feb</h5>
+          <span class="task-action-btn">
+            <span class="action-box large delete-btn" title="Delete Task">
+              <i class="fa-solid fa-trash"></i>
+            </span>
+            <span class="action-box large complete-btn" title="Mark Complete">
+              <i class="fa-solid fa-check"></i>
+            </span>
+          </span>
+        </div>
+      </div>
+    </li>
+
+    <li class="task">
+      <div class="task-container">
+        <h4 class="task-label">Options to create forms, if any, form deletes a view or modify the forms.</h4>
+        <div class="d-flex align-items-center gap-4">
+          <span class="badge badge-light-primary">In Progress</span>
+          <h5 class="assign-name m-0">15 Dec</h5>
+          <span class="task-action-btn">
+            <span class="action-box large delete-btn" title="Delete Task">
+              <i class="fa-solid fa-trash"></i>
+            </span>
+            <span class="action-box large complete-btn" title="Mark Complete">
+              <i class="fa-solid fa-check"></i>
+            </span>
+          </span>
+        </div>
+      </div>
+    </li>
+
+    <li class="task">
+      <div class="task-container">
+        <h4 class="task-label">Wrong inputs in the forms to the fields in the forms.</h4>
+        <div class="d-flex align-items-center gap-4">
+          <span class="badge badge-light-danger">Pending</span>
+          <h5 class="assign-name m-0">11 Nov</h5>
+          <span class="task-action-btn">
+            <span class="action-box large delete-btn" title="Delete Task">
+              <i class="fa-solid fa-trash"></i>
+            </span>
+            <span class="action-box large complete-btn" title="Mark Complete">
+              <i class="fa-solid fa-check"></i>
+            </span>
+          </span>
+        </div>
+      </div>
+    </li>
+
+    <li class="task completed">
+      <div class="task-container">
+        <h4 class="task-label">Check if the instructions provided are perfect to satisfy its purpose.</h4>
+        <div class="d-flex align-items-center gap-4">
+          <span class="badge badge-light-danger">Pending</span>
+          <h5 class="assign-name m-0">04 Sept</h5>
+          <span class="task-action-btn">
+            <span class="action-box large delete-btn" title="Delete Task">
+              <i class="fa-solid fa-trash"></i>
+            </span>
+            <span class="action-box large complete-btn" title="Mark Complete">
+              <i class="fa-solid fa-check"></i>
+            </span>
+          </span>
+        </div>
+      </div>
+    </li>
+
+    <li class="task">
+      <div class="task-container">
+        <h4 class="task-label">Application server and Database server interface.</h4>
+        <div class="d-flex align-items-center gap-4">
+          <span class="badge badge-light-success">Done</span>
+          <h5 class="assign-name m-0">08 July</h5>
+          <span class="task-action-btn">
+            <span class="action-box large delete-btn" title="Delete Task">
+              <i class="fa-solid fa-trash"></i>
+            </span>
+            <span class="action-box large complete-btn" title="Mark Complete">
+              <i class="fa-solid fa-check"></i>
+            </span>
+          </span>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+
                         </div>
                       </div>
                       <div class="notification-popup hide">
