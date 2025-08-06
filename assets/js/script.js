@@ -1,10 +1,4 @@
-/*-----------------------------------------------------------------------------------
- Template Name: Admiro
- Template URI: themes.pixelstrap.com/Admiro
- Description: This is Admin Template
- Author: Pixelstrap
- Author URI: https://themeforest.net/user/pixelstrap
- ----------------------------------------------------------------------------------- */
+
 // 01. Loader js
 // 02. Tap to top js
 // 03. Header DropDown Toggle js
