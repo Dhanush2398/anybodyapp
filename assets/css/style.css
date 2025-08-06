@@ -47345,6 +47345,7 @@ label {
   bottom: 80px;
   z-index: 9;
   right: 30px;
+  display: none;
 }
 @media (max-width: 575px) {
   .sidebar-pannle-main {
