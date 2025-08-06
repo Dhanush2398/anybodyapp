@@ -28166,12 +28166,14 @@ input::-webkit-inner-spin-button {
 }
 @media (max-width: 480px) and (min-width: 420px) {
   .page-header .logo-wrapper {
-    width: 154px;
+    width: 54px;
+     background-color: #FEF86A;
   }
 }
 @media (max-width: 420px) {
   .page-header .logo-wrapper {
     width: auto;
+    background-color: #FEF86A;
   }
 }
 .page-header .logo-wrapper .close-btn {
