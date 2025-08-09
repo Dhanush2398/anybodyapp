@@ -11999,7 +11999,7 @@ textarea.form-control-lg {
 body {
   font-family: "Nunito Sans", sans-serif;
   font-size: 14px;
-  color: #D93222;
+  color: #F96332;
   background-color: transparent !important;
   overflow-x: hidden;
 }
@@ -28147,7 +28147,7 @@ input::-webkit-inner-spin-button {
 }
 @media (max-width: 1199px) {
   .page-header .logo-wrapper {
-    background-color: unset;
+    background-color: #204065;
   }
 }
 @media (max-width: 991.98px) {
@@ -28167,7 +28167,7 @@ input::-webkit-inner-spin-button {
 @media (max-width: 480px) and (min-width: 420px) {
   .page-header .logo-wrapper {
     width: 54px;
-     background-color:#F96332;
+     background-color:#204065;
   }
 }
 @media (max-width: 420px) {
@@ -28209,6 +28209,7 @@ input::-webkit-inner-spin-button {
 }
 .page-header .logo-wrapper .close-btn:hover {
   background-color: var(--body-color);
+  color: #dc3545;
 }
 @media (max-width: 1199px) {
   .page-header .logo-wrapper .close-btn:hover {
@@ -47618,28 +47619,28 @@ label {
     grid-template-columns: repeat(4, 1fr); 
   }
 }
-/* Card Colors - Repeat Every 4 Cards */
+
 .custom-card:nth-child(4n + 1) {
-  background: #B8F2E6; /* Bright mint aqua */
+  background: #B8F2E6; 
   color: #124C43;
 }
 
 .custom-card:nth-child(4n + 2) {
-  background: #FFD8A8; /* Bright peachy orange */
+  background: #FFD8A8; 
   color: #5A3210;
 }
 
 .custom-card:nth-child(4n + 3) {
-  background: #CDB4FF; /* Bright lavender purple */
+  background: #CDB4FF; 
   color: #2B1C5A;
 }
 
 .custom-card:nth-child(4n + 4) {
-  background: #FFB3C6; /* Bright pink coral */
+  background: #FFB3C6;
   color: #5A1127;
 }
 
-/* Card Base Style */
+
 .custom-card {
   border-radius: 20px;
   padding: 24px;
