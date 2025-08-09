@@ -32659,10 +32659,11 @@ footer p .footer-icon {
 }
 .default-dashboard .welcome-banner span {
   padding: 10px 8px;
-  background-color: var(--body-color);
+  background-color: #F96332;
   border: 1px solid var(--light-gray);
   border-radius: 6px;
   font-weight: 700;
+  color: #fff;
 }
 .default-dashboard .welcome-banner span svg {
   width: 18px;
@@ -32670,6 +32671,7 @@ footer p .footer-icon {
 }
 .default-dashboard .welcome-banner h1, .default-dashboard .welcome-banner .h1 {
   font-size: calc(18px + 12 * (100vw - 300px) / 1620);
+  color: #204065;
 }
 .default-dashboard .welcome-banner h1 img, .default-dashboard .welcome-banner .h1 img {
   width: 20px;
@@ -47606,6 +47608,7 @@ label {
   grid-template-columns: repeat(1, 1fr); 
   gap: 16px;
   padding: 20px;
+   background-color: #F0F4F8;
 }
 
 @media (min-width: 600px) {
