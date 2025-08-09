@@ -27156,7 +27156,7 @@ input::-webkit-inner-spin-button {
   z-index: 3;
   background: var(--white);
   transition: 0.5s all;
-  background-color: #FEF86A;
+  background-color:#F96332;
 }
 @media (max-width: 991.98px) {
   .page-sidebar {
@@ -27603,7 +27603,7 @@ input::-webkit-inner-spin-button {
   display: flex;
   align-items: center;
   gap: 10px;
-  color:#DA3222;
+  color:#fff;
 }
 .page-sidebar .sidebar-link svg {
   width: 18px;
@@ -27740,7 +27740,7 @@ input::-webkit-inner-spin-button {
 .sidebar-menu .sidebar-list h6, .sidebar-menu .sidebar-list .h6 {
   font-weight: 600;
   font-size: 16px;
-  color: #D93222;
+  color: #fff;
 }
 .sidebar-menu .sidebar-title {
   padding: 9px 0 9px 5px;
@@ -28143,7 +28143,7 @@ input::-webkit-inner-spin-button {
   width: 253px;
   justify-content: space-between;
   padding: 15px 16px;
-  background-color: #FE9F43;
+  background-color: #F96332;
 }
 @media (max-width: 1199px) {
   .page-header .logo-wrapper {
@@ -28167,13 +28167,13 @@ input::-webkit-inner-spin-button {
 @media (max-width: 480px) and (min-width: 420px) {
   .page-header .logo-wrapper {
     width: 54px;
-     background-color: #FEF86A;
+     background-color:#F96332;
   }
 }
 @media (max-width: 420px) {
   .page-header .logo-wrapper {
     width: auto;
-    background-color: #FEF86A;
+    background-color:#204065;
   }
 }
 .page-header .logo-wrapper .close-btn {
@@ -28479,7 +28479,7 @@ header .page-main-header {
   justify-content: space-between;
   padding: 15px 30px;
   align-items: center;
-  background-color: #FEF86A;
+  background-color: #204065;
 }
 @media (max-width: 1199.98px) {
   header .page-main-header {
@@ -47614,7 +47614,7 @@ label {
 }
 
 .custom-card {
-  background: linear-gradient(135deg, #FEF86A, #FE9F43);
+  background: linear-gradient(135deg,#F96332, #FE9F43);
   border-radius: 20px;
   padding: 24px;
   text-align: center;
