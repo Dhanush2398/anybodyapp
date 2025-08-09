@@ -27578,7 +27578,7 @@ input::-webkit-inner-spin-button {
 .page-sidebar .sidebar-submenu a {
   position: relative;
   letter-spacing: 0.5px;
-  color: var(--gray-700);
+  color: #fff;
   padding: 4px;
   display: block;
   padding-left: 15px;
@@ -27593,7 +27593,7 @@ input::-webkit-inner-spin-button {
   width: 4px;
   height: 4px;
   border-radius: 100%;
-  background: var(--gray-700);
+  background: #fff;
   transition: 0.5s all;
 }
 .page-sidebar .sidebar-link {
